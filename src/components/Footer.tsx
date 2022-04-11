@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Center,
   Container,
   css,
@@ -11,6 +12,7 @@ import {
   TabPanels,
   Tabs,
   Text,
+  VStack,
 } from "@chakra-ui/react";
 
 const SELECTED = {
@@ -63,14 +65,25 @@ const Footer = () => {
                     borderRadius="5px"
                     m="auto"
                   />
-                  <Text
-                    variant="section-text"
-                    maxW={{ base: "100%", lg: "242px" }}
-                  >
-                    Enim quis eu est Lorem ad id qui esse quis aliquip id non
-                    nostrud. In exercitation commodo elit pariatur id Lorem
-                    labore.
-                  </Text>
+                  <VStack alignItems="flex-start">
+                    <Text
+                      variant="section-text"
+                      maxW={{ base: "100%", lg: "242px" }}
+                      mb={4}
+                    >
+                      Enim quis eu est Lorem ad id qui esse quis aliquip id non
+                      nostrud. In exercitation commodo elit pariatur id.
+                    </Text>
+                    <Button
+                      variant="solid"
+                      bgColor="#178bc1"
+                      color="white"
+                      w="198px"
+                      _hover={{ bgColor: "#178bc1", opacity: 0.8 }}
+                    >
+                      View Project
+                    </Button>
+                  </VStack>
                 </Stack>
               </TabPanel>
               <TabPanel>
@@ -82,14 +95,25 @@ const Footer = () => {
                     borderRadius="5px"
                     m="auto"
                   />
-                  <Text
-                    variant="section-text"
-                    maxW={{ base: "100%", lg: "242px" }}
-                  >
-                    Elit Lorem irure eu nostrud magna irure magna non amet
-                    culpa. Nostrud ex deserunt ex aute. Dolor quis eu irure eu.
-                    Ullamco duis excepteur irure nisi ullamco.
-                  </Text>
+                  <VStack alignItems="flex-start">
+                    <Text
+                      variant="section-text"
+                      maxW={{ base: "100%", lg: "242px" }}
+                      mb={4}
+                    >
+                      Elit Lorem irure eu nostrud magna irure magna non amet
+                      culpa. Nostrud ex deserunt ex aute.
+                    </Text>
+                    <Button
+                      variant="solid"
+                      bgColor="#178bc1"
+                      color="white"
+                      w="198px"
+                      _hover={{ bgColor: "#178bc1", opacity: 0.8 }}
+                    >
+                      View Project
+                    </Button>
+                  </VStack>
                 </Stack>
               </TabPanel>
               <TabPanel>
@@ -101,14 +125,26 @@ const Footer = () => {
                     borderRadius="5px"
                     m="auto"
                   />
-                  <Text
-                    variant="section-text"
-                    maxW={{ base: "100%", lg: "242px" }}
-                  >
-                    Sunt eu cillum dolore ullamco aute reprehenderit fugiat
-                    proident mollit fugiat mollit irure voluptate. Fugiat
-                    officia dolor aute amet.
-                  </Text>
+
+                  <VStack alignItems="flex-start">
+                    <Text
+                      variant="section-text"
+                      maxW={{ base: "100%", lg: "242px" }}
+                      mb={4}
+                    >
+                      Deserunt eu est nostrud adipisicing. Labore cupidatat
+                      culpa aliquip excepteur incididunt exercitation.
+                    </Text>
+                    <Button
+                      variant="solid"
+                      bgColor="#178bc1"
+                      color="white"
+                      w="198px"
+                      _hover={{ bgColor: "#178bc1", opacity: 0.8 }}
+                    >
+                      View Project
+                    </Button>
+                  </VStack>
                 </Stack>
               </TabPanel>
               <TabPanel>
@@ -120,15 +156,26 @@ const Footer = () => {
                     borderRadius="5px"
                     m="auto"
                   />
-                  <Text
-                    variant="section-text"
-                    maxW={{ base: "100%", lg: "242px" }}
-                  >
-                    Quis labore id laboris cillum ad ad reprehenderit velit duis
-                    in nulla dolor voluptate. Amet nisi in minim id esse
-                    cupidatat quis quis adipisicing officia aliquip. Do veniam
-                    cillum do esse.
-                  </Text>
+
+                  <VStack alignItems="flex-start">
+                    <Text
+                      variant="section-text"
+                      maxW={{ base: "100%", lg: "242px" }}
+                      mb={4}
+                    >
+                      Fugiat consequat veniam occaecat nostrud exercitation
+                      adipisicing ea reprehenderit. Non aliquip fugiat sit.
+                    </Text>
+                    <Button
+                      variant="solid"
+                      bgColor="#178bc1"
+                      color="white"
+                      w="198px"
+                      _hover={{ bgColor: "#178bc1", opacity: 0.8 }}
+                    >
+                      View Project
+                    </Button>
+                  </VStack>
                 </Stack>
               </TabPanel>
               <TabPanel>
@@ -140,15 +187,25 @@ const Footer = () => {
                     borderRadius="5px"
                     m="auto"
                   />
-                  <Text
-                    variant="section-text"
-                    maxW={{ base: "100%", lg: "242px" }}
-                  >
-                    Tempor culpa aute veniam laboris officia amet non commodo
-                    irure veniam do dolor ea exercitation. Minim ut id irure
-                    dolor proident velit voluptate cupidatat. Magna ad est irure
-                    sunt occaecat.
-                  </Text>
+                  <VStack alignItems="flex-start">
+                    <Text
+                      variant="section-text"
+                      maxW={{ base: "100%", lg: "242px" }}
+                      mb={4}
+                    >
+                      Enim labore duis dolore ea dolore ad. Cillum elit quis
+                      sunt reprehenderit consequat incididunt.
+                    </Text>
+                    <Button
+                      variant="solid"
+                      bgColor="#178bc1"
+                      color="white"
+                      w="198px"
+                      _hover={{ bgColor: "#178bc1", opacity: 0.8 }}
+                    >
+                      View Project
+                    </Button>
+                  </VStack>
                 </Stack>
               </TabPanel>
             </TabPanels>

@@ -35,22 +35,24 @@ const Header = ({ isPlayerVisible, setPlayerVisible }: Props) => {
           role="button"
         />
       </Box>
-      <Box
-        position="absolute"
-        top="50%"
-        left="50%"
-        transform="translate(-50%,-50%)"
-        cursor="pointer"
-        width="100%"
-        display={isPlayerVisible ? "block" : "none"}
-      >
-        <AspectRatio maxW="100%" minH="100vh">
-          <iframe
-            src="https://www.youtube.com/embed/yDJIcYE32NU?modestbranding=1&showinfo=0"
-            frameBorder="0"
-          />
-        </AspectRatio>
-      </Box>
+      {isPlayerVisible && (
+        <Box
+          position="absolute"
+          top="calc(50% + 37px)"
+          left="50%"
+          transform="translate(-50%,-50%)"
+          cursor="pointer"
+          width="100%"
+        >
+          <AspectRatio maxW="100%" height="calc(100vh - 75px)">
+            <iframe
+              src="https://www.youtube.com/embed/BILxV_vrZO0?autoplay=1"
+              frameBorder="0"
+              allow="autoplay"
+            />
+          </AspectRatio>
+        </Box>
+      )}
     </Box>
   );
 };

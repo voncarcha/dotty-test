@@ -51,6 +51,8 @@ const TopNav = ({
             cursor="pointer"
             role="button"
             mr="10px"
+            as="a"
+            href="#section-1"
             onClick={() => setPlayerVisible(!isPlayerVisible)}
           >
             {isPlayerVisible ? (
