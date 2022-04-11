@@ -87,7 +87,10 @@ const Footer = () => {
                 </Stack>
               </TabPanel>
               <TabPanel>
-                <Stack direction={{ base: "column", lg: "row" }} spacing="50px">
+                <Stack
+                  direction={{ base: "column", lg: "row" }}
+                  spacing={{ base: "20px", md: "50px" }}
+                >
                   <Box
                     width={{ base: "100%", sm: "403px" }}
                     height="159px"
@@ -117,7 +120,10 @@ const Footer = () => {
                 </Stack>
               </TabPanel>
               <TabPanel>
-                <Stack direction={{ base: "column", lg: "row" }} spacing="50px">
+                <Stack
+                  direction={{ base: "column", lg: "row" }}
+                  spacing={{ base: "20px", md: "50px" }}
+                >
                   <Box
                     width={{ base: "100%", sm: "403px" }}
                     height="159px"
@@ -148,7 +154,10 @@ const Footer = () => {
                 </Stack>
               </TabPanel>
               <TabPanel>
-                <Stack direction={{ base: "column", lg: "row" }} spacing="50px">
+                <Stack
+                  direction={{ base: "column", lg: "row" }}
+                  spacing={{ base: "20px", md: "50px" }}
+                >
                   <Box
                     width={{ base: "100%", sm: "403px" }}
                     height="159px"
@@ -179,7 +188,10 @@ const Footer = () => {
                 </Stack>
               </TabPanel>
               <TabPanel>
-                <Stack direction={{ base: "column", lg: "row" }} spacing="50px">
+                <Stack
+                  direction={{ base: "column", lg: "row" }}
+                  spacing={{ base: "20px", md: "50px" }}
+                >
                   <Box
                     width={{ base: "100%", sm: "403px" }}
                     height="159px"
